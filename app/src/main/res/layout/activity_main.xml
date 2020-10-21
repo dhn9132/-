@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.dhnsoft.testandroid.MainActivity">
+
+    <com.dhnsoft.testandroid.EchartView
+        android:id="@+id/lineChart"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top"></com.dhnsoft.testandroid.EchartView>
+
+    <com.dhnsoft.testandroid.EchartView
+        android:id="@+id/lineChart2"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top"></com.dhnsoft.testandroid.EchartView>
+
+    <Button
+        android:onClick="reflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新页面"
+        />
+</LinearLayout>
